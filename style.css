@@ -1,0 +1,110 @@
+body {
+	font: bold 21px/1 Georgia, serif;
+	background: url("images/background3.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card {
+	width: 65%;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 2%;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px #000;
+}
+
+.song {
+	margin-bottom: 2px;
+	color: #fff;
+	font-size: 21px;
+	text-align: center;
+	text-shadow: 1px 2px 2px #000;
+}
+
+.artist {
+	font-size: 16px;
+}
+
+.play-but{
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.buttons {
+	width: 170px;
+	height: 60px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2%;
+}
+
+.images {
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4%;
+	padding-bottom: 1%;
+}
+
+#leftcard {
+	margin-left: 1%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	width: 3%;
+	height: 500px;
+	float: left;
+}
+
+#rightcard {
+	margin-right: 1%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	width: 3%;
+	height: 500px;
+	float: right;
+}
+
+.logo {
+	min-width: 100%;
+	margin-top: 2px;
+	border-radius: 30px;
+	background-color: rgba(109, 7, 7);
+}
+
+.logo2 {
+	min-width: 100%;
+	margin-top: 2px;
+	border-radius: 30px;
+	background-color: rgba(109, 7, 7);
+	float: right;
+}
+
+.progress-bar {
+	background-color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 5px;
+	width: 30%;
+}
+
+.progress {
+	background-color: rgba(109, 7, 7);
+	border-radius: 5px;
+	height: 100%;
+	width: 0%;
+	transition: width 0.1s linear;
+}

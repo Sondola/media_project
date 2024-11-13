@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>lab3media</title>
+	</head>
+	<body>
+		<div class="card">
+			<div id = "rightcard"></div>
+			<div id = "leftcard"></div>
+			<div class="images">
+				<img src="images/how-to-be-a-heartbreaker.jpg" id="my_img">
+			</div>
+
+			<p class="song" id="my_name">How to be a heartbreaker</p>
+			<p class="song artist" id="my_artist">Marina and the diamonds</p>
+			
+			<div class="progress-bar">
+				<div class="progress"></div>
+			</div>
+
+			<div class="buttons">
+				<img src="images/arrowleft.jpg" class="play-but" onclick="previous_song()">
+				<img src="images/play.png" class="play-but" onclick="play_audio()">
+				<img src="images/arrow.jpg" class="play-but" onclick="next_song()">
+			</div>
+		</div>
+		<audio src = "audio/Marina - How to Be a Heartbreaker.mp3" id="my_audio"></audio>
+		<script src="script.js"></script>
+	</body>
+</html>
